@@ -1,0 +1,36 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+
+}
+
+.btn{
+    background-color: transparent;
+    padding: 4px 8px;
+    cursor: pointer;
+    border: 2px solid #232323;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+    outline: none;
+    transition: all .2s ease-in;
+}
+.btn:hover{
+    background-color: #22222244;
+}
+.prev {
+    border-radius: 8px 0 0 8px;
+}
+.next {
+    border-radius: 0 8px 8px 0;
+}
+.active{
+    border-top: 2px solid #232323;
+    border-bottom: 2px solid #232323;
+    padding: 4px 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}

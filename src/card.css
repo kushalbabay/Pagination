@@ -1,0 +1,37 @@
+.card {
+    padding: 16px;
+    background-color: #fff;
+    height: 300px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    word-break: break-all;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 16px;
+    transition: all .25s ease-in-out;
+  }
+
+  .avatar{
+      height: 128px;
+      width: 128px;
+      border-radius: 50%;
+      border: 5px solid #454545;
+      overflow: hidden;
+  }
+  .card:hover{
+      transform: scale(1.02);
+      box-shadow: 5px 5px 15px #00000099;
+  }
+
+  .name{
+      background-color: #fff;
+      font-size: 24px;
+      font-weight: 900;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .email{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 12px;
+  }
