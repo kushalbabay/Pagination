@@ -10,8 +10,6 @@ export default function Card(props) {
 
             <div className="name">
                 {props.first_name}
-                &nbsp;
-                {props.last_name}
             </div>
 
             <div className="email">
